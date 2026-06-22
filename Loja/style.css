@@ -58,3 +58,23 @@ transform: translateY(-5px);
     padding: 0 15px 15px;
     color: chocolate;
 }
+
+.card button{
+width: 270px;
+margin-left: 15px;
+padding: 8px;
+background-color: #805640;
+color: beige;
+border: none;
+border-radius: 9px;
+}
+.card button:hover{
+    background-color: rgb(51, 79, 104);
+}
+
+footer{
+    background-color: blanchedalmond;
+    color: rgb(41, 21, 13);
+    text-align: center;
+    padding: 20px;
+}
