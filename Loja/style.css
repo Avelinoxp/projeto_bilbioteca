@@ -1,80 +1,78 @@
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
 }
+
 body{
-    min-height:100vh;
-    display: flex;
+    min-height: 100vh;
+    display:flex;
     flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    
+    background-color: aliceblue;
 }
 
 header{
-    background-color:darkolivegreen;
-    color: antiquewhite;
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
     padding: 30px;
 }
 
 header h1{
-    margin-bottom: 10px;
-    font-size: 42px;
-
+    margin-bottom:10px;
 }
+
 .produtos{
     display: flex;
-    color:#a66948;
     flex-wrap: wrap;
-    justify-content: center;/* center - flex-start or end*/
-    gap: 25px; /*espaçamneto no meio de duas caixas*/
+    justify-content: center;
+    gap: 25px;
     padding: 30px;
     max-width: 1300px;
-    margin: auto; /*Para centralizar use auto*/
-    
+    margin: auto;
 }
 
 .card{
     width: 300px;
-    background-color: bisque;
+    background-color: white;
     border-radius: 10px;
+    overflow: hidden;
     padding-bottom: 20px;
-    
-}
-.card img{
-    width: 100%;
-    height: 200px;
-    /* /* Object-fit: cover; recortar quando a img é grande */
 }
 
 .card:hover{
-transform: translateY(-5px);
+    transform: translateY(-5px);
 }
+
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
 .card h2{
-    color: rgb(56, 56, 24);
-    padding: 15px;
-    text-align: center;
+    color:blue;
+    padding:15px
 }
-.card p{
+
+.card p {
     padding: 0 15px 15px;
-    color: chocolate;
+    color: #475569;
 }
 
 .card button{
-width: 270px;
-margin-left: 15px;
-padding: 8px;
-background-color: #805640;
-color: beige;
-border: none;
-border-radius: 9px;
-}
-.card button:hover{
-    background-color: rgb(51, 79, 104);
+    width: 270px;
+    margin-left:15px;
+    padding:10px 20px;
+    background-color:#2563eb;
+    color:white;
+    border:none;
+    border-radius:5px;
+
 }
 
-footer{
-    background-color: blanchedalmond;
-    color: rgb(41, 21, 13);
-    text-align: center;
-    padding: 20px;
+.card button:hover{
+    background-color:#1d4ed8;
+
 }

@@ -1,0 +1,45 @@
+/* Configurações Gerais e Resets */
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #19226e;
+    color: #dad8d8;
+    line-height: 1.1;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #5c83c2;
+    color: #801d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10%;
+    box-shadow: 0 2px 5px rgba(156, 67, 67, 0.1);
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #9e4e10; /* Laranja característico do Java */
+}
+
+nav a {
+    color: #be8383;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e28743;
+}

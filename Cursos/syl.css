@@ -1,0 +1,183 @@
+/* Configurações Gerais e Resets */
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #8ed1b9;
+    color: #770b0b;
+    line-height: 1.1;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #5c83c2;
+    color: #801d1d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10%;
+    box-shadow: 0 2px 5px rgba(156, 67, 67, 0.1);
+}
+
+header .logo {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #9e4e10; /* Laranja característico do Java */
+}
+
+nav a {
+    color: #be8383;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #e28743;
+}
+
+/* Seção Hero / Banner */
+.course-card {
+    background: linear-gradient(135deg, #27549e 0%, #132652 100%);
+    color: #7a2323;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Container dos Cursos */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    gap: 25px;
+    justify-content: center;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #092b79;
+    position: relative;
+}
+
+/* Card do Curso */
+.course-card {
+    width: 300px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 4px 6px rgba(105, 96, 96, 0.05);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(73, 49, 49, 0.1);
+}
+
+/* Etiquetas (Badges) */
+.course-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+
+}
+
+.course-card button {
+    width: 230px;
+    margin-left: 15px;
+    padding: 8px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.course-card h3 {
+    margin-bottom: 12px;
+    color: #4cafe9;
+}
+
+.course-card p {
+    font-size: 14px;
+    color: #64748b;
+    margin-bottom: 20px;
+    flex-grow: 1; /* Garante que o botão fique sempre alinhado embaixo */
+}
+
+
+.course-card button:hover {
+    background-color: #cd6e2d;
+}
+
+
+
+/* Rodapé */
+footer {
+    background-color: #0f172a;
+    color: #5d708a;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+.produto{
+    background-color: white;
+    flex:1;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:50px;
+    padding:50px;
+}
+
+.imagem img{
+    width:600px;
+    height: 400px;
+    border-radius:10px;
+
+}
+
+.informacoes{
+    width:400px;
+}
+
+.informacoes h2{
+    color:#2563eb;
+    margin-bottom:20px;
+
+}
+
+.informacoes p{
+    margin-bottom:15px;
+}
+
+.informacoes h3{
+    color:green;
+    margin:20px 0;
+}
+
+.informacoes button{
+    width:200px;
+    padding:12px;
+    margin:10px;
+    border:none;
+    border-radius:5px;
+    background:#2563eb;
+    color:white;
+}
+
